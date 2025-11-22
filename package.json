@@ -1,0 +1,18 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "Payment processing service for e-commerce platform",
+  "main": "payment_service.js",
+  "scripts": {
+    "start": "node payment_service.js",
+    "dev": "nodemon payment_service.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
